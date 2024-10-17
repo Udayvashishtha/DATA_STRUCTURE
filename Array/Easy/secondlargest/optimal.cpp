@@ -10,6 +10,8 @@ void secondlargest(int arr[],int n)
         if(largest < arr[i]){
             secondlargest=largest;
             largest=arr[i];
+        }else if(arr[i]<largest && arr[i]> secondlargest){
+           secondlargest=arr[i];
         }
     }
     cout<< secondlargest;
