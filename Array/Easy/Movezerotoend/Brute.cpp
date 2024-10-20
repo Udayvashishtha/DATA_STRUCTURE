@@ -4,6 +4,11 @@ using namespace std;
 
 void Movezerotoend(int arr[],int n){
 
+
+    if(n==0|| n==1){
+         cout<<"Cannot be move";
+         return;
+    }
     vector<int>temp;
 
   
